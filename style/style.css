@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
-body header {
-  color: #ffffff;
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+body .header {
   position: absolute;
+  color: #ffffff;
   background-color: #707070;
   font-family: Helvetica, sans-serif;
   display: flex;
@@ -15,36 +20,36 @@ body header {
   height: 399px;
   width: 1500px;
 }
-body header .msg1 {
-  position: relative;
+body .header .msg1 {
+  position: absolute;
   height: 23px;
   width: 250px;
   font-size: 20px;
   top: 69px;
 }
-body header .msg2 {
-  position: relative;
+body .header .msg2 {
+  position: absolute;
   height: 48px;
   width: 358px;
   font-size: 40px;
   top: 92px;
   font-weight: bold;
 }
-body header .msg3 {
-  position: relative;
+body .header .msg3 {
+  position: absolute;
   height: 16px;
   width: 548px;
   font-size: 14px;
   top: 164px;
 }
-body header .nav {
-  position: relative;
+body .header .nav {
+  position: absolute;
   display: flex;
   width: 769px;
   justify-content: space-between;
   top: 230px;
 }
-body header .nav a {
+body .header .nav a {
   color: #888888;
   display: flex;
   justify-content: center;
@@ -55,4 +60,61 @@ body header .nav a {
   text-decoration: none;
   border: 1px solid #707070;
   border-radius: 4px;
+}
+body .intro {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 290px;
+  top: 20px;
+  padding-top: 29px;
+  width: 920px;
+  height: 350px;
+}
+body .intro .content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-content: flex-start;
+}
+body .intro .content1 h1 {
+  position: absolute;
+  top: 420px;
+  height: 23px;
+  width: 432px;
+}
+body .intro .content1 p {
+  position: absolute;
+  top: 473px;
+  height: 220px;
+  width: 520px;
+}
+body .intro form {
+  position: absolute;
+  top: 420px;
+  left: 870px;
+  display: flex;
+  flex-direction: column;
+  height: 227px;
+  width: 340px;
+}
+body .intro form label {
+  height: 14px;
+}
+body .intro form .textoinput {
+  height: 30px;
+  width: 340px;
+}
+body .intro form div {
+  display: flex;
+  justify-content: left;
+  width: 203px;
+  height: 14px;
+}
+body .intro form div input {
+  font-size: 12px;
+  height: 14px;
+}
+body .intro form div label {
+  padding-right: 20px;
 }/*# sourceMappingURL=style.css.map */
