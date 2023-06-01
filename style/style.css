@@ -5,8 +5,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   position: relative;
 }
 body .header {
@@ -50,6 +48,7 @@ body .header .nav {
   top: 230px;
 }
 body .header .nav a {
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1607843137);
   color: #888888;
   display: flex;
   justify-content: center;
@@ -60,61 +59,84 @@ body .header .nav a {
   text-decoration: none;
   border: 1px solid #707070;
   border-radius: 4px;
+  border: 1px solid #707070;
 }
 body .intro {
-  display: flex;
-  justify-content: space-between;
   position: absolute;
-  left: 290px;
-  top: 20px;
-  padding-top: 29px;
   width: 920px;
   height: 350px;
 }
-body .intro .content1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-content: flex-start;
-}
-body .intro .content1 h1 {
+body .intro h1 {
   position: absolute;
   top: 420px;
   height: 23px;
   width: 432px;
+  left: 290px;
+  font: normal normal normal 20px/24px Helvetica Neue;
+  color: #888888;
+  text-align: left;
 }
-body .intro .content1 p {
+body .intro .paragrafos {
   position: absolute;
+  left: 290px;
   top: 473px;
-  height: 220px;
+  margin-bottom: 30px;
+  color: #888888;
+  letter-spacing: 0px;
+}
+body .intro .paragrafos p {
+  display: block;
+  padding-top: 10px;
   width: 520px;
 }
-body .intro form {
+body form {
+  font: normal normal normal 12px/14px Helvetica Neue;
+  color: #888888;
+  font-size: 12px;
   position: absolute;
+  position: relative;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-around;
   top: 420px;
   left: 870px;
-  display: flex;
-  flex-direction: column;
-  height: 227px;
+  height: 277px;
   width: 340px;
 }
-body .intro form label {
-  height: 14px;
+body form .inputbox {
+  height: 51px;
+  position: relative;
 }
-body .intro form .textoinput {
+body form .inputbox label {
+  position: absolute;
+  height: 14px;
+  top: 0;
+}
+body form .inputbox .textoinput {
+  position: absolute;
   height: 30px;
   width: 340px;
+  bottom: 0;
 }
-body .intro form div {
+body form .sexo {
+  position: absolute;
+  top: 213px;
   display: flex;
   justify-content: left;
   width: 203px;
   height: 14px;
 }
-body .intro form div input {
+body form .sexo input {
   font-size: 12px;
   height: 14px;
 }
-body .intro form div label {
+body form .sexo label {
   padding-right: 20px;
+}
+body .botao {
+  position: absolute;
+  height: 39px;
+  width: 340px;
+  top: 670px;
+  left: 870px;
 }/*# sourceMappingURL=style.css.map */
