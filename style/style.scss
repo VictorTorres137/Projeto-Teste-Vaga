@@ -161,5 +161,56 @@ body{
       left: 870px;
       // margin-top: 23px;
     }  
+
+  
+  .tituloprodutos{
+    position: absolute;
+    left: 666px;
+    top: 788px;
+    height: 22px;
+    width: 181px;
+    }
+  .listaprodutos{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 860px;
+    left: 285px;
+    width: 931px;
+    height: 740px;
+    
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font: normal normal normal 12px/16px Helvetica Neue;
+      width: 201px;
+      height: 350px;
+      img{
+        // background-color: rgb(194, 211, 211);
+        border: 1px solid #707070;
+        height: 150px;
+        width: 200px;
+      }
+      button{
+        align-self: center;
+        justify-self: center;
+        width: 200px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px solid #707070;
+      }
+    }
+    
   }
+  .maisprodutos{
+    position: absolute;
+    width: 260px;
+    height: 39px;
+    top: 1651px;
+    left: 620px;
+  }
+  }
+
   
