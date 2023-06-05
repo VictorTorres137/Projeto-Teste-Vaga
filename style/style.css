@@ -61,12 +61,7 @@ body .header .nav a {
   border-radius: 4px;
   border: 1px solid #707070;
 }
-body .intro {
-  position: absolute;
-  width: 920px;
-  height: 350px;
-}
-body .intro h1 {
+body h1 {
   position: absolute;
   top: 420px;
   height: 23px;
@@ -76,7 +71,7 @@ body .intro h1 {
   color: #888888;
   text-align: left;
 }
-body .intro .paragrafos {
+body .paragrafos {
   position: absolute;
   left: 290px;
   top: 473px;
@@ -84,7 +79,7 @@ body .intro .paragrafos {
   color: #888888;
   letter-spacing: 0px;
 }
-body .intro .paragrafos p {
+body .paragrafos p {
   display: block;
   padding-top: 10px;
   width: 520px;
@@ -94,7 +89,6 @@ body form {
   color: #888888;
   font-size: 12px;
   position: absolute;
-  position: relative;
   display: flexbox;
   flex-direction: column;
   justify-content: space-around;

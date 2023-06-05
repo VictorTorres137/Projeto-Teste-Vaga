@@ -10,6 +10,7 @@ body{
   // flex-direction: column;
   position: relative;
 
+
   .header{
     position: absolute;
     color: #ffffff;
@@ -68,14 +69,7 @@ body{
     }
   }
 
-  .intro{
-    // display: flex;
-    // justify-content: space-between;
-    position: absolute;
-    // padding-top:29px;
-    width: 920px;
-    height: 350px;
- 
+  
     h1{
       position: absolute;
       top: 420px;
@@ -101,13 +95,13 @@ body{
         width: 520px;
       }
     }
-    }
+    
     form{
       font: normal normal normal 12px/14px Helvetica Neue;
       color: #888888;
       font-size: 12px;
       position: absolute;
-      position: relative;
+      // position: relative;
       display: flexbox;
       flex-direction: column;
       // align-content: space-around;
