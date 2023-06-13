@@ -178,4 +178,50 @@ body .maisprodutos {
   height: 39px;
   top: 1651px;
   left: 620px;
+}
+body .amigos {
+  position: absolute;
+}
+body .amigos h2 {
+  width: 204px;
+  height: 22px;
+  font-size: 18px;
+  position: absolute;
+  left: 655px;
+  top: 1818px;
+}
+body .amigos p {
+  position: absolute;
+  font-size: 14px;
+  height: 16px;
+  width: 534px;
+  top: 1884px;
+  left: 483px;
+}
+body .amigos .form2 {
+  position: absolute;
+  top: 1939px;
+  left: 390px;
+  height: 51px;
+  width: 720px;
+}
+body .amigos .form2 .form-amigo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+body .amigos .form2 .form-amigo div {
+  display: flex;
+  flex-direction: column;
+}
+body .amigos .form2 .form-amigo div .text {
+  width: 340px;
+  height: 30px;
+}
+body .amigos .form2 .bt-enviar {
+  position: absolute;
+  height: 39px;
+  width: 260px;
+  top: 101px;
+  left: 230px;
 }/*# sourceMappingURL=style.css.map */

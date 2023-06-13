@@ -205,6 +205,66 @@ body{
     top: 1651px;
     left: 620px;
   }
+  .amigos{
+    position: absolute;
+    // top: 1818px;
+    h2{
+      width: 204px;
+      height: 22px;
+      font-size: 18px;
+      position: absolute;
+      left: 655px;
+      top: 1818px;
+    }
+    p{
+      position: absolute;
+      font-size: 14px;
+      height: 16px;
+      width: 534px;
+      top: 1884px;
+      left: 483px;
+    }
+    .form2{
+      position: absolute;
+      top: 1939px;
+      left: 390px;
+      height: 51px;
+      width: 720px;
+      .form-amigo{
+  
+          // position: absolute;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          // flex-wrap: wrap;
+          
+          
+          // background-color: black;
+        div{
+          // position: absolute;
+          display: flex;
+          flex-direction: column;
+          .text{
+            // position: absolute;
+            width: 340px;
+            height: 30px;
+            // top: 21px;
+          }
+        }
+        
+      }
+
+      .bt-enviar{
+        
+        position: absolute;
+        height: 39px;
+        width: 260px;
+        top: 101px;
+        left: 620-390px;        
+      }
+    }
+    
+  }
   }
 
   
