@@ -2,14 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  
   
 }
 
 body{
+  font-family: Helvetica, sans-serif;
   // display: flex;
   // flex-direction: column;
   position: relative;
-
+  color: #888888;
 
   .header{
     position: absolute;
@@ -71,14 +74,16 @@ body{
 
   
     h1{
+      font-family: Helvetica, sans-serif;
       position: absolute;
       top: 420px;
       height: 23px;
       width: 432px;
       left: 290px;
-      font: normal normal normal 20px/24px Helvetica Neue;
+      font-size: 20px;
       color: #888888;
       text-align: left;
+      font-weight: bold;
     }
     .paragrafos{
       position: absolute;
@@ -133,6 +138,7 @@ body{
         position: absolute;
         top: 213px;
         display: flex;
+        
         justify-content: left;
         width: 203px;
         height: 14px;
@@ -140,8 +146,10 @@ body{
         input{
           font-size: 12px;
           height: 14px;
+          border: 1px solid #707070;
         }
         label{
+          margin-left: 5px;
           padding-right: 20px;
         }
       }
@@ -149,6 +157,11 @@ body{
     }
     .botao{
       position: absolute;
+      border: 1px solid #707070;
+      background-color: #ffffff;
+      border-radius: 4px;
+      color: #888888;
+      font-size: 16px;
       height: 39px;
       width: 340px;
       top: 670px;
@@ -158,6 +171,7 @@ body{
 
   
   .tituloprodutos{
+    font-weight: bold;
     position: absolute;
     left: 666px;
     top: 788px;
@@ -175,6 +189,10 @@ body{
     height: 740px;
     
     div{
+      p{
+        font-size: 12px;
+        
+      }
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -187,7 +205,14 @@ body{
         height: 150px;
         width: 200px;
       }
+      .promo{
+        font-weight: bold;
+        font-size: 16px;
+      }
       button{
+        background-color: #ffffff;
+        font-size: 16px;
+        color: #888888;
         align-self: center;
         justify-self: center;
         width: 200px;
@@ -199,6 +224,8 @@ body{
     
   }
   .maisprodutos{
+    font-size: 16px;
+    // color: #707070;
     position: absolute;
     width: 260px;
     height: 39px;
@@ -211,10 +238,12 @@ body{
     h2{
       width: 204px;
       height: 22px;
-      font-size: 18px;
+      font-size: 17px;
       position: absolute;
       left: 655px;
       top: 1818px;
+      font-weight: bold;
+      // background-color: #707070;
     }
     p{
       position: absolute;
