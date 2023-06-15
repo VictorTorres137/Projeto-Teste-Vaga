@@ -7,11 +7,8 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  position: relative;
-  color: #888888;
 }
 body .header {
-  position: absolute;
   color: #ffffff;
   background-color: #707070;
   font-family: Helvetica, sans-serif;
@@ -64,78 +61,80 @@ body .header .nav a {
   border-radius: 4px;
   border: 1px solid #707070;
 }
-body h1 {
-  font-family: Helvetica, sans-serif;
+body .intro {
+  position: relative;
+  width: 931px;
+  height: 390px;
+  margin: 0 auto;
+}
+body .intro .caixa-texto {
   position: absolute;
-  top: 420px;
+  top: 20px;
+  left: 0px;
+  width: 520px;
+  height: 273px;
+}
+body .intro .caixa-texto h1 {
   height: 23px;
   width: 432px;
-  left: 290px;
   font-size: 20px;
   color: #888888;
   text-align: left;
   font-weight: bold;
 }
-body .paragrafos {
-  position: absolute;
-  left: 290px;
-  top: 473px;
+body .intro .caixa-texto .paragrafos {
   margin-bottom: 30px;
   color: #888888;
   letter-spacing: 0px;
 }
-body .paragrafos p {
-  display: block;
+body .intro .caixa-texto .paragrafos p {
   padding-top: 10px;
   width: 520px;
 }
-body form {
+body .intro .caixa-form {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  height: 227px;
+  width: 340px;
+}
+body .intro .caixa-form form {
   font: normal normal normal 12px/14px Helvetica Neue;
   color: #888888;
   font-size: 12px;
-  position: absolute;
   display: flexbox;
   flex-direction: column;
   justify-content: space-around;
-  top: 420px;
-  left: 870px;
   height: 277px;
   width: 340px;
 }
-body form .inputbox {
+body .intro .caixa-form form .inputbox {
   height: 51px;
   position: relative;
 }
-body form .inputbox label {
-  position: absolute;
+body .intro .caixa-form form .inputbox label {
   height: 14px;
-  top: 0;
 }
-body form .inputbox .textoinput {
-  position: absolute;
+body .intro .caixa-form form .inputbox .textoinput {
   height: 30px;
   width: 340px;
-  bottom: 0;
 }
-body form .sexo {
-  position: absolute;
-  top: 213px;
+body .intro .caixa-form form .sexo {
   display: flex;
   justify-content: left;
   width: 203px;
   height: 14px;
 }
-body form .sexo input {
+body .intro .caixa-form form .sexo input {
   font-size: 12px;
   height: 14px;
   border: 1px solid #707070;
 }
-body form .sexo label {
+body .intro .caixa-form form .sexo label {
   margin-left: 5px;
   padding-right: 20px;
 }
-body .botao {
-  position: absolute;
+body .intro .caixa-form .botao {
   border: 1px solid #707070;
   background-color: #ffffff;
   border-radius: 4px;
@@ -143,28 +142,28 @@ body .botao {
   font-size: 16px;
   height: 39px;
   width: 340px;
-  top: 670px;
-  left: 870px;
 }
-body .tituloprodutos {
+body .produtos {
+  margin: 0 auto;
+  position: relative;
+  width: 931px;
+  height: 902px;
+}
+body .produtos .tituloprodutos {
   font-weight: bold;
-  position: absolute;
-  left: 666px;
-  top: 788px;
+  margin: 0 auto;
+  margin-bottom: 50px;
   height: 22px;
   width: 181px;
 }
-body .listaprodutos {
-  position: absolute;
+body .produtos .listaprodutos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  top: 860px;
-  left: 285px;
   width: 931px;
   height: 740px;
 }
-body .listaprodutos div {
+body .produtos .listaprodutos div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -172,19 +171,19 @@ body .listaprodutos div {
   width: 201px;
   height: 350px;
 }
-body .listaprodutos div p {
+body .produtos .listaprodutos div p {
   font-size: 12px;
 }
-body .listaprodutos div img {
+body .produtos .listaprodutos div img {
   border: 1px solid #707070;
   height: 150px;
   width: 200px;
 }
-body .listaprodutos div .promo {
+body .produtos .listaprodutos div .promo {
   font-weight: bold;
   font-size: 16px;
 }
-body .listaprodutos div button {
+body .produtos .listaprodutos div .bt-comprar {
   background-color: #ffffff;
   font-size: 16px;
   color: #888888;
@@ -195,38 +194,41 @@ body .listaprodutos div button {
   border-radius: 4px;
   border: 1px solid #707070;
 }
-body .maisprodutos {
+body .produtos .bt {
+  width: 260px;
+  height: 39px;
+  margin: 0 auto;
+}
+body .produtos .bt .maisprodutos {
   font-size: 16px;
+  bottom: 0;
   position: absolute;
   width: 260px;
   height: 39px;
-  top: 1651px;
-  left: 620px;
 }
 body .amigos {
-  position: absolute;
+  margin: 0 auto;
+  width: 931px;
+  height: 261px;
 }
 body .amigos h2 {
   width: 204px;
   height: 22px;
   font-size: 17px;
-  position: absolute;
-  left: 655px;
-  top: 1818px;
+  margin: 0 auto;
+  margin-top: 128px;
   font-weight: bold;
 }
 body .amigos p {
-  position: absolute;
+  margin: 0 auto;
   font-size: 14px;
   height: 16px;
   width: 534px;
-  top: 1884px;
-  left: 483px;
+  margin-top: 44px;
 }
 body .amigos .form2 {
-  position: absolute;
-  top: 1939px;
-  left: 390px;
+  margin: 0 auto;
+  margin-top: 39px;
   height: 51px;
   width: 720px;
 }
@@ -235,35 +237,36 @@ body .amigos .form2 .form-amigo {
   justify-content: space-between;
   flex-direction: row;
 }
-body .amigos .form2 .form-amigo div {
+body .amigos .form2 .form-amigo .inputs-amigo {
   height: 51px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-body .amigos .form2 .form-amigo div .text {
+body .amigos .form2 .form-amigo .inputs-amigo .text {
   border: 1px solid #707070;
   width: 340px;
   height: 30px;
 }
-body .amigos .form2 .bt-enviar {
-  position: absolute;
+body .amigos .form2 .div-enviar {
+  margin: 0 auto;
   height: 39px;
   width: 260px;
-  top: 101px;
-  left: 230px;
+}
+body .amigos .form2 .div-enviar .bt-enviar {
+  margin-top: 50px;
+  height: 39px;
+  width: 260px;
   border-radius: 4px;
   border: 1px solid #707070;
 }
 body .footer {
   display: flex;
-  position: absolute;
+  margin-top: 72px;
   background-color: #707070;
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  top: 2150px;
-  left: 0px;
   width: 1500px;
   height: 294px;
   font-size: 12px;

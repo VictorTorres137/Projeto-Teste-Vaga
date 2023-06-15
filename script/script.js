@@ -17,7 +17,7 @@ function formataDados(dados){
             <p>De ${item.oldPrice.toLocaleString("pt-BR", { style: "currency" , currency:"BRL"})}</p>
             <p class="promo"> Por ${item.price.toLocaleString("pt-BR", { style: "currency" , currency:"BRL"})}</p>
             <p> ou ${item.installments.count}x de ${item.installments.value.toLocaleString("pt-BR", { style: "currency" , currency:"BRL"})} </p>
-            <button>Comprar</button>
+            <button class="bt-comprar">Comprar</button>
         </div>`
     }
 }
