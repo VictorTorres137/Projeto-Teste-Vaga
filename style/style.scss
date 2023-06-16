@@ -13,7 +13,9 @@
 }
 
 .tela1{
-  width: 1500px;
+  width: 100vw;
+  min-width: 931px;
+  // width: 1500px;
   margin: 0 auto;
 }
 
@@ -30,7 +32,8 @@ body{
     flex-direction: column;
     align-items: center;
     height: 399px;
-    width: 1500px;
+    // width: 100vw;
+    // margin: 0 auto;
 
     .msg1{
       position: absolute;
@@ -310,16 +313,21 @@ body{
     
   }
   .footer{
-    display: flex;
-    margin-top: 72px;
+    // width: 100vw;
     background-color: #707070;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    width: 1500px;
-    height: 294px;
-    font-size: 12px;
-    color: #ffffff;
+    .centraliza{
+      display: flex;
+      margin-top: 72px;
+      
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // width: 1500px;
+      // width: 100vw;
+      height: 294px;
+      font-size: 12px;
+      color: #ffffff;
+    }
     p{
       margin-bottom: 5px;
     }
@@ -329,17 +337,79 @@ body{
 @media (max-width: 420px){
   body{
 
+    // .header{
+    //   color: #ffffff;
+    //   // background-color: #707070;
+    //   background-color: aqua;
+    //   font-family: Helvetica, sans-serif;
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   height: 399px;
+    //   // width: 1500px;
+    //   width: 100vw;
+    // }
+
     .header{
       color: #ffffff;
-      // background-color: #707070;
-      background-color: aqua;
+      background-color: #707070;
+      // background-color: aqua;
       font-family: Helvetica, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       height: 399px;
-      width: 1500px;
+      // width: 100vw;
+      // margin: 0 auto;
+  
+      .msg1{
+        position: absolute;
+        height: 23px;
+        width: 250px;
+        font-size: 20px;
+        top: 69px;
+  
+      }
+      .msg2{
+        position: absolute;
+        height: 48px;
+        width: 358px;
+        font-size: 40px;
+        top: 92px;
+        font-weight: bold;
+      }
+      .msg3{
+        position: absolute;
+        height: 16px;
+        width: 548px;
+        font-size: 14px;
+        top: 164px;
+      }
+      .nav{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        justify-content: space-between;
+        top: 230px;
+        background-color: aqua;
+        a{
+          box-shadow: 0px 1px 6px #00000029;
+          color:#888888;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 160px;
+          height: 40px;
+          background-color: #ffffff;
+          text-decoration: none;
+          border: 1px solid #707070;
+          border-radius: 4px;
+          border: 1px solid #707070;
+        }
+      }
     }
+
   }
 }
 
